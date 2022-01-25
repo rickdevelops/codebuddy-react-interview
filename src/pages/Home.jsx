@@ -20,6 +20,7 @@ const Home = () => {
       </Jumbotron>
       <Container>
         <Form>
+          <Form.Control type="email" />
           <Button onClick={onSubmit}>Goto Posts</Button>
         </Form>
       </Container>
